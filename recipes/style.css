@@ -9,6 +9,9 @@ body {
         width: 50%;
         height: auto;
     }
+    .navbar {
+        position: relative;
+    }
 }
 
 ul {
@@ -30,27 +33,20 @@ img {
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #424242;
-    position: fixed;
-    top: 0;
-    width: 5%;
-    margin: 0;
-    border-radius: 20px;
-  }
+    background-color: #444444;  
+}
 
-  .navbar a {
+.navbar a {
     float: left;
-    display: block;
-    color: #eeeeee;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    padding-left: 25%;
-  }
+    font-size: 20px;
+
+}
 
   .navbar a:hover {
-    color: #1c87c9;
-  }
+    color: #c1ff7b;
+}
 
 
